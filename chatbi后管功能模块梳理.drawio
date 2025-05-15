@@ -22,7 +22,7 @@
         <mxCell id="alHSipFoMdGwwCc6gNLb-6" value="auth" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="490" y="340" width="60" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="alHSipFoMdGwwCc6gNLb-7" value="sse" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="alHSipFoMdGwwCc6gNLb-7" value="chat" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="340" y="420" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="alHSipFoMdGwwCc6gNLb-8" value="config" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
@@ -134,6 +134,57 @@
         </mxCell>
         <mxCell id="alHSipFoMdGwwCc6gNLb-45" value="xxx" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fad9d5;strokeColor=#ae4132;" vertex="1" parent="1">
           <mxGeometry x="970" y="350" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="alHSipFoMdGwwCc6gNLb-46" value="基础服务" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="295" y="960" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="alHSipFoMdGwwCc6gNLb-60" value="&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;Imrecord&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;align=left;verticalAlign=top;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="52.5" y="1090" width="242.5" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="alHSipFoMdGwwCc6gNLb-61" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="238.75" y="650" width="242.5" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="alHSipFoMdGwwCc6gNLb-49" value="&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;苍穹基础能力&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;align=left;verticalAlign=top;fillColor=#dae8fc;strokeColor=#6c8ebf;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="alHSipFoMdGwwCc6gNLb-61">
+          <mxGeometry width="242.5" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="alHSipFoMdGwwCc6gNLb-47" value="人员" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="alHSipFoMdGwwCc6gNLb-61">
+          <mxGeometry x="57.5" y="50" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="alHSipFoMdGwwCc6gNLb-48" value="权限" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="alHSipFoMdGwwCc6gNLb-61">
+          <mxGeometry x="57.5" y="130" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="alHSipFoMdGwwCc6gNLb-62" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="587.5" y="790" width="242.5" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="alHSipFoMdGwwCc6gNLb-53" value="&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;Auth&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;align=left;verticalAlign=top;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="alHSipFoMdGwwCc6gNLb-62">
+          <mxGeometry width="242.5" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="alHSipFoMdGwwCc6gNLb-54" value="苍穹认证" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="alHSipFoMdGwwCc6gNLb-62">
+          <mxGeometry x="61" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="alHSipFoMdGwwCc6gNLb-55" value="OAuth2.0" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="alHSipFoMdGwwCc6gNLb-62">
+          <mxGeometry x="61.25" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="alHSipFoMdGwwCc6gNLb-63" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-100" y="800" width="242.5" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="alHSipFoMdGwwCc6gNLb-56" value="&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;Chat&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;align=left;verticalAlign=top;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="alHSipFoMdGwwCc6gNLb-63">
+          <mxGeometry width="242.5" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="alHSipFoMdGwwCc6gNLb-57" value="会话管理" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="alHSipFoMdGwwCc6gNLb-63">
+          <mxGeometry x="60" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="alHSipFoMdGwwCc6gNLb-58" value="SSE" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="alHSipFoMdGwwCc6gNLb-63">
+          <mxGeometry x="60" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="alHSipFoMdGwwCc6gNLb-65" value="&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;config&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;align=left;verticalAlign=top;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="510" y="1090" width="242.5" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="alHSipFoMdGwwCc6gNLb-70" value="历史对话存储" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="113.75" y="1130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="alHSipFoMdGwwCc6gNLb-71" value="前端历史对话同步" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="113.75" y="1210" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
