@@ -139,7 +139,7 @@
           <mxGeometry x="295" y="960" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="alHSipFoMdGwwCc6gNLb-60" value="&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;Imrecord&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;align=left;verticalAlign=top;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="52.5" y="1090" width="242.5" height="210" as="geometry" />
+          <mxGeometry x="-30" y="1100" width="242.5" height="210" as="geometry" />
         </mxCell>
         <mxCell id="alHSipFoMdGwwCc6gNLb-61" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="238.75" y="650" width="242.5" height="210" as="geometry" />
@@ -181,10 +181,46 @@
           <mxGeometry x="510" y="1090" width="242.5" height="210" as="geometry" />
         </mxCell>
         <mxCell id="alHSipFoMdGwwCc6gNLb-70" value="历史对话存储" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="113.75" y="1130" width="120" height="60" as="geometry" />
+          <mxGeometry x="31.25" y="1150" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="alHSipFoMdGwwCc6gNLb-71" value="前端历史对话同步" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="113.75" y="1210" width="120" height="60" as="geometry" />
+          <mxGeometry x="31.25" y="1230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="alHSipFoMdGwwCc6gNLb-72" value="系统参数配置" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="571.25" y="1140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="alHSipFoMdGwwCc6gNLb-73" value="连接配置" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="571.25" y="1220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="alHSipFoMdGwwCc6gNLb-74" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="430" y="970" as="sourcePoint" />
+            <mxPoint x="590" y="900" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="alHSipFoMdGwwCc6gNLb-75" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" target="alHSipFoMdGwwCc6gNLb-65">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="425" y="1020" as="sourcePoint" />
+            <mxPoint x="542.5" y="1195" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="alHSipFoMdGwwCc6gNLb-77" value="" style="endArrow=none;html=1;rounded=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="870" as="sourcePoint" />
+            <mxPoint x="360" y="950" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="alHSipFoMdGwwCc6gNLb-78" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="150" y="930" as="sourcePoint" />
+            <mxPoint x="280" y="970" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="alHSipFoMdGwwCc6gNLb-79" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="1100" as="sourcePoint" />
+            <mxPoint x="290" y="1020" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
