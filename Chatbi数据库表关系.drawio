@@ -35,19 +35,19 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="JHLlziUZztqA-o6GXzpv-53" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;labelBackgroundColor=none;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;rounded=1;" value="&lt;div style=&quot;box-sizing:border-box;width:100%;background:#e4e4e4;padding:2px;&quot;&gt;t_cbi_assistant&lt;br&gt;&lt;/div&gt;&lt;table style=&quot;width:100%;font-size:1em;&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;链接配置&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" vertex="1">
-          <mxGeometry height="80" width="180" x="130" y="780" as="geometry" />
+          <mxGeometry height="80" width="180" x="130" y="1030" as="geometry" />
         </mxCell>
         <mxCell id="JHLlziUZztqA-o6GXzpv-54" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;labelBackgroundColor=none;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;rounded=1;" value="&lt;div style=&quot;box-sizing:border-box;width:100%;background:#e4e4e4;padding:2px;&quot;&gt;t_gai_cbi_assistant_conn&lt;br&gt;&lt;/div&gt;&lt;table style=&quot;width:100%;font-size:1em;&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;链接配置分录详情&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" vertex="1">
-          <mxGeometry height="80" width="180" x="390" y="780" as="geometry" />
+          <mxGeometry height="80" width="180" x="390" y="1030" as="geometry" />
         </mxCell>
         <mxCell id="JHLlziUZztqA-o6GXzpv-57" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;labelBackgroundColor=none;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;rounded=1;" value="&lt;div style=&quot;box-sizing:border-box;width:100%;background:#e4e4e4;padding:2px;&quot;&gt;t_gai_cbi_config&lt;br&gt;&lt;/div&gt;&lt;table style=&quot;width:100%;font-size:1em;&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;ChatBI模型配置&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" vertex="1">
-          <mxGeometry height="80" width="180" x="1800" y="1050" as="geometry" />
+          <mxGeometry height="80" width="180" x="130" y="1450" as="geometry" />
         </mxCell>
         <mxCell id="JHLlziUZztqA-o6GXzpv-58" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;labelBackgroundColor=none;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;rounded=1;" value="&lt;div style=&quot;box-sizing:border-box;width:100%;background:#e4e4e4;padding:2px;&quot;&gt;t_cbi_config&lt;br&gt;&lt;/div&gt;&lt;br&gt;系统参数配置&lt;table style=&quot;width:100%;font-size:1em;&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;/tbody&gt;&lt;/table&gt;" vertex="1">
-          <mxGeometry height="80" width="180" x="1330" y="1050" as="geometry" />
+          <mxGeometry height="80" width="180" x="130" y="1290" as="geometry" />
         </mxCell>
         <mxCell id="JHLlziUZztqA-o6GXzpv-70" connectable="0" parent="1" style="group;labelBackgroundColor=none;fontColor=#1D3557;rounded=1;" value="" vertex="1">
-          <mxGeometry height="670" width="2010" x="130" y="50" as="geometry" />
+          <mxGeometry height="690" width="2010" x="120" y="80" as="geometry" />
         </mxCell>
         <mxCell id="JHLlziUZztqA-o6GXzpv-19" connectable="0" parent="JHLlziUZztqA-o6GXzpv-70" style="group;labelBackgroundColor=none;fontColor=#1D3557;rounded=1;" value="" vertex="1">
           <mxGeometry height="550" width="430" y="40" as="geometry" />
@@ -230,44 +230,47 @@
             <mxPoint x="1830" y="170" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="JHLlziUZztqA-o6GXzpv-79" parent="JHLlziUZztqA-o6GXzpv-70" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;labelBackgroundColor=none;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;rounded=1;" value="&lt;div style=&quot;box-sizing:border-box;width:100%;background:#e4e4e4;padding:2px;&quot;&gt;t_cbi_agent_analysis&lt;/div&gt;&lt;table style=&quot;width:100%;font-size:1em;&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK-fid&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;智能体配置-分析框架&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" vertex="1">
+          <mxGeometry height="80" width="180" x="250" y="630" as="geometry" />
+        </mxCell>
         <mxCell id="JHLlziUZztqA-o6GXzpv-74" edge="1" parent="1" source="JHLlziUZztqA-o6GXzpv-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="JHLlziUZztqA-o6GXzpv-73" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="JHLlziUZztqA-o6GXzpv-71" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;labelBackgroundColor=none;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;rounded=1;" value="&lt;div style=&quot;box-sizing:border-box;width:100%;background:#e4e4e4;padding:2px;&quot;&gt;t_cbi_workflow&lt;br&gt;&lt;/div&gt;&lt;table style=&quot;width:100%;font-size:1em;&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;工作流基础资料&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" vertex="1">
-          <mxGeometry height="80" width="180" x="640" y="780" as="geometry" />
+          <mxGeometry height="80" width="180" x="640" y="1030" as="geometry" />
         </mxCell>
         <mxCell id="JHLlziUZztqA-o6GXzpv-72" edge="1" parent="1" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;" target="JHLlziUZztqA-o6GXzpv-71" value="">
           <mxGeometry relative="1" width="100" as="geometry">
             <Array as="points" />
-            <mxPoint x="570" y="819.4100000000001" as="sourcePoint" />
-            <mxPoint x="670" y="819.4100000000001" as="targetPoint" />
+            <mxPoint x="570" y="1069.41" as="sourcePoint" />
+            <mxPoint x="670" y="1069.41" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="JHLlziUZztqA-o6GXzpv-73" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;labelBackgroundColor=none;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;rounded=1;" value="&lt;div style=&quot;box-sizing:border-box;width:100%;background:#e4e4e4;padding:2px;&quot;&gt;t_cbi_workflow_http&lt;br&gt;&lt;/div&gt;&lt;table style=&quot;width:100%;font-size:1em;&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;工作流 - http节点配置&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" vertex="1">
-          <mxGeometry height="80" width="180" x="900" y="780" as="geometry" />
+          <mxGeometry height="80" width="180" x="900" y="1030" as="geometry" />
         </mxCell>
         <mxCell id="JHLlziUZztqA-o6GXzpv-75" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;labelBackgroundColor=none;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;rounded=1;" value="&lt;div style=&quot;box-sizing:border-box;width:100%;background:#e4e4e4;padding:2px;&quot;&gt;t_cbi_workflow_model&lt;br&gt;&lt;/div&gt;&lt;table style=&quot;width:100%;font-size:1em;&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;工作流 - 模型节点配置&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" vertex="1">
-          <mxGeometry height="80" width="180" x="900" y="910" as="geometry" />
+          <mxGeometry height="80" width="180" x="900" y="1160" as="geometry" />
         </mxCell>
         <mxCell id="JHLlziUZztqA-o6GXzpv-76" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;labelBackgroundColor=none;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;rounded=1;" value="&lt;div style=&quot;box-sizing:border-box;width:100%;background:#e4e4e4;padding:2px;&quot;&gt;t_cbi_workflow_tool&lt;br&gt;&lt;/div&gt;&lt;table style=&quot;width:100%;font-size:1em;&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;工作流 - 工具节点配置&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" vertex="1">
-          <mxGeometry height="80" width="180" x="900" y="1040" as="geometry" />
+          <mxGeometry height="80" width="180" x="900" y="1290" as="geometry" />
         </mxCell>
         <mxCell id="JHLlziUZztqA-o6GXzpv-77" edge="1" parent="1" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" value="">
           <mxGeometry relative="1" width="100" as="geometry">
             <Array as="points">
-              <mxPoint x="850" y="950" />
+              <mxPoint x="850" y="1200" />
             </Array>
-            <mxPoint x="820" y="820" as="sourcePoint" />
-            <mxPoint x="900" y="950" as="targetPoint" />
+            <mxPoint x="820" y="1070" as="sourcePoint" />
+            <mxPoint x="900" y="1200" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="JHLlziUZztqA-o6GXzpv-78" edge="1" parent="1" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" value="">
           <mxGeometry relative="1" width="100" as="geometry">
             <Array as="points">
-              <mxPoint x="850" y="1080" />
+              <mxPoint x="850" y="1330" />
             </Array>
-            <mxPoint x="820" y="820" as="sourcePoint" />
-            <mxPoint x="900" y="1080" as="targetPoint" />
+            <mxPoint x="820" y="1070" as="sourcePoint" />
+            <mxPoint x="900" y="1330" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
