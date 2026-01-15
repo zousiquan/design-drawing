@@ -233,6 +233,16 @@
         <mxCell id="JHLlziUZztqA-o6GXzpv-79" parent="JHLlziUZztqA-o6GXzpv-70" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;labelBackgroundColor=none;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;rounded=1;" value="&lt;div style=&quot;box-sizing:border-box;width:100%;background:#e4e4e4;padding:2px;&quot;&gt;t_cbi_agent_analysis&lt;/div&gt;&lt;table style=&quot;width:100%;font-size:1em;&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK-fid&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;智能体配置-分析框架&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" vertex="1">
           <mxGeometry height="80" width="180" x="250" y="630" as="geometry" />
         </mxCell>
+        <mxCell id="JHLlziUZztqA-o6GXzpv-80" edge="1" parent="JHLlziUZztqA-o6GXzpv-70" source="JHLlziUZztqA-o6GXzpv-1" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" value="">
+          <mxGeometry relative="1" width="100" as="geometry">
+            <Array as="points">
+              <mxPoint x="190" y="320" />
+              <mxPoint x="190" y="680" />
+            </Array>
+            <mxPoint x="190" y="530" as="sourcePoint" />
+            <mxPoint x="250" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="JHLlziUZztqA-o6GXzpv-74" edge="1" parent="1" source="JHLlziUZztqA-o6GXzpv-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="JHLlziUZztqA-o6GXzpv-73" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
