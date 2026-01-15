@@ -4,71 +4,74 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="JHLlziUZztqA-o6GXzpv-1" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;div style=&quot;box-sizing:border-box;width:100%;background:#e4e4e4;padding:2px;&quot;&gt;t_cbi_agent_base&lt;/div&gt;&lt;table style=&quot;width:100%;font-size:1em;&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK-fid&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;智能体基础资料表&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" vertex="1">
-          <mxGeometry height="80" width="140" x="130" y="330" as="geometry" />
+        <mxCell id="JHLlziUZztqA-o6GXzpv-19" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="550" width="430" x="130" y="90" as="geometry" />
         </mxCell>
-        <mxCell id="JHLlziUZztqA-o6GXzpv-2" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;div style=&quot;box-sizing:border-box;width:100%;background:#e4e4e4;padding:2px;&quot;&gt;t_cbi_agent_baseinfo&lt;/div&gt;&lt;table style=&quot;width:100%;font-size:1em;&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK-fid&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;智能体配置-基本信息&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" vertex="1">
-          <mxGeometry height="80" width="180" x="380" y="90" as="geometry" />
+        <mxCell id="JHLlziUZztqA-o6GXzpv-1" parent="JHLlziUZztqA-o6GXzpv-19" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;div style=&quot;box-sizing:border-box;width:100%;background:#e4e4e4;padding:2px;&quot;&gt;t_cbi_agent_base&lt;/div&gt;&lt;table style=&quot;width:100%;font-size:1em;&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK-fid&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;智能体基础资料表&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" vertex="1">
+          <mxGeometry height="80" width="140" y="240" as="geometry" />
         </mxCell>
-        <mxCell id="JHLlziUZztqA-o6GXzpv-7" edge="1" parent="1" source="JHLlziUZztqA-o6GXzpv-1" style="endArrow=block;endFill=1;html=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" value="">
+        <mxCell id="JHLlziUZztqA-o6GXzpv-2" parent="JHLlziUZztqA-o6GXzpv-19" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;div style=&quot;box-sizing:border-box;width:100%;background:#e4e4e4;padding:2px;&quot;&gt;t_cbi_agent_baseinfo&lt;/div&gt;&lt;table style=&quot;width:100%;font-size:1em;&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK-fid&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;智能体配置-基本信息&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" vertex="1">
+          <mxGeometry height="80" width="180" x="250" as="geometry" />
+        </mxCell>
+        <mxCell id="JHLlziUZztqA-o6GXzpv-7" edge="1" parent="JHLlziUZztqA-o6GXzpv-19" source="JHLlziUZztqA-o6GXzpv-1" style="endArrow=block;endFill=1;html=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" value="">
           <mxGeometry relative="1" x="-1" as="geometry">
             <Array as="points">
-              <mxPoint x="320" y="370" />
-              <mxPoint x="320" y="130" />
+              <mxPoint x="190" y="280" />
+              <mxPoint x="190" y="40" />
             </Array>
-            <mxPoint x="470" y="370" as="sourcePoint" />
-            <mxPoint x="380" y="130" as="targetPoint" />
+            <mxPoint x="340" y="280" as="sourcePoint" />
+            <mxPoint x="250" y="40" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="JHLlziUZztqA-o6GXzpv-8" connectable="0" parent="JHLlziUZztqA-o6GXzpv-7" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;" value="1" vertex="1">
           <mxGeometry relative="1" x="-1" as="geometry" />
         </mxCell>
-        <mxCell id="JHLlziUZztqA-o6GXzpv-9" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;div style=&quot;box-sizing:border-box;width:100%;background:#e4e4e4;padding:2px;&quot;&gt;t_cbi_agent_dataconfig&lt;/div&gt;&lt;table style=&quot;width:100%;font-size:1em;&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK-fid&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;智能体配置-数据配置&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" vertex="1">
-          <mxGeometry height="80" width="180" x="380" y="220" as="geometry" />
+        <mxCell id="JHLlziUZztqA-o6GXzpv-9" parent="JHLlziUZztqA-o6GXzpv-19" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;div style=&quot;box-sizing:border-box;width:100%;background:#e4e4e4;padding:2px;&quot;&gt;t_cbi_agent_dataconfig&lt;/div&gt;&lt;table style=&quot;width:100%;font-size:1em;&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK-fid&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;智能体配置-数据配置&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" vertex="1">
+          <mxGeometry height="80" width="180" x="250" y="130" as="geometry" />
         </mxCell>
-        <mxCell id="JHLlziUZztqA-o6GXzpv-10" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;div style=&quot;box-sizing:border-box;width:100%;background:#e4e4e4;padding:2px;&quot;&gt;t_cbi_agent_bizdata&lt;/div&gt;&lt;div style=&quot;box-sizing:border-box;width:100%;background:#e4e4e4;padding:2px;&quot;&gt;&lt;table style=&quot;width:100%;font-size:1em;&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK-fid&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;font-size: 1em; background-color: transparent;&quot;&gt;智能体配置-业务查数配置&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="80" width="180" x="380" y="330" as="geometry" />
+        <mxCell id="JHLlziUZztqA-o6GXzpv-10" parent="JHLlziUZztqA-o6GXzpv-19" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;div style=&quot;box-sizing:border-box;width:100%;background:#e4e4e4;padding:2px;&quot;&gt;t_cbi_agent_bizdata&lt;/div&gt;&lt;div style=&quot;box-sizing:border-box;width:100%;background:#e4e4e4;padding:2px;&quot;&gt;&lt;table style=&quot;width:100%;font-size:1em;&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK-fid&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;font-size: 1em; background-color: transparent;&quot;&gt;智能体配置-业务查数配置&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="180" x="250" y="240" as="geometry" />
         </mxCell>
-        <mxCell id="JHLlziUZztqA-o6GXzpv-11" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;div style=&quot;box-sizing:border-box;width:100%;background:#e4e4e4;padding:2px;&quot;&gt;t_cbi_agent_role_config&lt;/div&gt;&lt;table style=&quot;width:100%;font-size:1em;&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK-fid&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;智能体配置-用户身份配置&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" vertex="1">
-          <mxGeometry height="80" width="180" x="380" y="440" as="geometry" />
+        <mxCell id="JHLlziUZztqA-o6GXzpv-11" parent="JHLlziUZztqA-o6GXzpv-19" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;div style=&quot;box-sizing:border-box;width:100%;background:#e4e4e4;padding:2px;&quot;&gt;t_cbi_agent_role_config&lt;/div&gt;&lt;table style=&quot;width:100%;font-size:1em;&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK-fid&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;智能体配置-用户身份配置&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" vertex="1">
+          <mxGeometry height="80" width="180" x="250" y="350" as="geometry" />
         </mxCell>
-        <mxCell id="JHLlziUZztqA-o6GXzpv-12" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;div style=&quot;box-sizing:border-box;width:100%;background:#e4e4e4;padding:2px;&quot;&gt;t_cbi_agent_baseinfo&lt;/div&gt;&lt;table style=&quot;width:100%;font-size:1em;&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK-fid&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;智能体配置-高级配置&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" vertex="1">
-          <mxGeometry height="80" width="180" x="380" y="560" as="geometry" />
+        <mxCell id="JHLlziUZztqA-o6GXzpv-12" parent="JHLlziUZztqA-o6GXzpv-19" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;div style=&quot;box-sizing:border-box;width:100%;background:#e4e4e4;padding:2px;&quot;&gt;t_cbi_agent_baseinfo&lt;/div&gt;&lt;table style=&quot;width:100%;font-size:1em;&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK-fid&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;智能体配置-高级配置&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" vertex="1">
+          <mxGeometry height="80" width="180" x="250" y="470" as="geometry" />
         </mxCell>
-        <mxCell id="JHLlziUZztqA-o6GXzpv-15" edge="1" parent="1" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="JHLlziUZztqA-o6GXzpv-10" value="">
+        <mxCell id="JHLlziUZztqA-o6GXzpv-15" edge="1" parent="JHLlziUZztqA-o6GXzpv-19" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="JHLlziUZztqA-o6GXzpv-10" value="">
           <mxGeometry relative="1" width="100" as="geometry">
             <Array as="points" />
-            <mxPoint x="270" y="369.5" as="sourcePoint" />
-            <mxPoint x="370" y="369.5" as="targetPoint" />
+            <mxPoint x="140" y="279.5" as="sourcePoint" />
+            <mxPoint x="240" y="279.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="JHLlziUZztqA-o6GXzpv-16" edge="1" parent="1" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="JHLlziUZztqA-o6GXzpv-9" value="">
+        <mxCell id="JHLlziUZztqA-o6GXzpv-16" edge="1" parent="JHLlziUZztqA-o6GXzpv-19" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="JHLlziUZztqA-o6GXzpv-9" value="">
           <mxGeometry relative="1" width="100" as="geometry">
             <Array as="points">
-              <mxPoint x="320" y="370" />
-              <mxPoint x="320" y="260" />
+              <mxPoint x="190" y="280" />
+              <mxPoint x="190" y="170" />
             </Array>
-            <mxPoint x="270" y="370" as="sourcePoint" />
-            <mxPoint x="210" y="100" as="targetPoint" />
+            <mxPoint x="140" y="280" as="sourcePoint" />
+            <mxPoint x="80" y="10" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="JHLlziUZztqA-o6GXzpv-17" edge="1" parent="1" source="JHLlziUZztqA-o6GXzpv-1" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="JHLlziUZztqA-o6GXzpv-11" value="">
+        <mxCell id="JHLlziUZztqA-o6GXzpv-17" edge="1" parent="JHLlziUZztqA-o6GXzpv-19" source="JHLlziUZztqA-o6GXzpv-1" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="JHLlziUZztqA-o6GXzpv-11" value="">
           <mxGeometry relative="1" width="100" as="geometry">
             <Array as="points">
-              <mxPoint x="320" y="370" />
-              <mxPoint x="320" y="480" />
+              <mxPoint x="190" y="280" />
+              <mxPoint x="190" y="390" />
             </Array>
-            <mxPoint x="130" y="540" as="sourcePoint" />
-            <mxPoint x="230" y="540" as="targetPoint" />
+            <mxPoint y="450" as="sourcePoint" />
+            <mxPoint x="100" y="450" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="JHLlziUZztqA-o6GXzpv-18" edge="1" parent="1" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="JHLlziUZztqA-o6GXzpv-12" value="">
+        <mxCell id="JHLlziUZztqA-o6GXzpv-18" edge="1" parent="JHLlziUZztqA-o6GXzpv-19" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="JHLlziUZztqA-o6GXzpv-12" value="">
           <mxGeometry relative="1" width="100" as="geometry">
             <Array as="points">
-              <mxPoint x="320" y="600" />
+              <mxPoint x="190" y="510" />
             </Array>
-            <mxPoint x="320" y="480" as="sourcePoint" />
-            <mxPoint x="170" y="580" as="targetPoint" />
+            <mxPoint x="190" y="390" as="sourcePoint" />
+            <mxPoint x="40" y="490" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
