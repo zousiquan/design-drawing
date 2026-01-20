@@ -107,7 +107,7 @@
           <mxGeometry height="120" width="250" x="1250" y="90" as="geometry" />
         </mxCell>
         <mxCell id="D_rbxeIY8IHrmzFwVU9i-97" parent="1" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;horizontal=0;horizontalStack=1;" value="Pool" vertex="1">
-          <mxGeometry height="1300" width="1190" x="1240" y="250" as="geometry" />
+          <mxGeometry height="1300" width="1100" x="1240" y="250" as="geometry" />
         </mxCell>
         <mxCell id="D_rbxeIY8IHrmzFwVU9i-98" parent="D_rbxeIY8IHrmzFwVU9i-97" style="swimlane;startSize=20;" value="ai-chatbi-flowengine" vertex="1">
           <mxGeometry height="1300" width="372.5" x="20" as="geometry" />
@@ -155,7 +155,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="D_rbxeIY8IHrmzFwVU9i-99" parent="D_rbxeIY8IHrmzFwVU9i-97" style="swimlane;startSize=20;" value="ai-chatbi-mservice / ai-chatbi-mservice-api" vertex="1">
-          <mxGeometry height="1300" width="377.5" x="392.5" as="geometry" />
+          <mxGeometry height="1300" width="417.5" x="392.5" as="geometry" />
         </mxCell>
         <mxCell id="D_rbxeIY8IHrmzFwVU9i-120" edge="1" parent="D_rbxeIY8IHrmzFwVU9i-99" source="D_rbxeIY8IHrmzFwVU9i-116" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="D_rbxeIY8IHrmzFwVU9i-119" value="">
           <mxGeometry relative="1" as="geometry" />
@@ -178,11 +178,14 @@
         <mxCell id="D_rbxeIY8IHrmzFwVU9i-130" parent="D_rbxeIY8IHrmzFwVU9i-99" style="whiteSpace=wrap;html=1;rounded=1;" value="DslEngineService.chatDslToQueryDsl()" vertex="1">
           <mxGeometry height="60" width="240" x="100" y="810" as="geometry" />
         </mxCell>
+        <mxCell id="D_rbxeIY8IHrmzFwVU9i-135" edge="1" parent="D_rbxeIY8IHrmzFwVU9i-99" source="D_rbxeIY8IHrmzFwVU9i-132" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="D_rbxeIY8IHrmzFwVU9i-134" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="D_rbxeIY8IHrmzFwVU9i-132" parent="D_rbxeIY8IHrmzFwVU9i-99" style="whiteSpace=wrap;html=1;rounded=1;" value="&lt;span style=&quot;background-color: transparent;&quot;&gt;DslHandler前处理&lt;/span&gt;&lt;br&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;关键字处理&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;日期过滤条件补全&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;默认Agg时间粒度补全&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;" vertex="1">
           <mxGeometry height="90" width="240" x="100" y="910" as="geometry" />
         </mxCell>
-        <mxCell id="D_rbxeIY8IHrmzFwVU9i-100" parent="D_rbxeIY8IHrmzFwVU9i-97" style="swimlane;startSize=20;" value="ai-chatbi-dslengine" vertex="1">
-          <mxGeometry height="1300" width="420" x="770" as="geometry" />
+        <mxCell id="D_rbxeIY8IHrmzFwVU9i-134" parent="D_rbxeIY8IHrmzFwVU9i-99" style="whiteSpace=wrap;html=1;rounded=1;" value="DSL解析" vertex="1">
+          <mxGeometry height="60" width="120" x="160" y="1050" as="geometry" />
         </mxCell>
         <mxCell id="D_rbxeIY8IHrmzFwVU9i-117" edge="1" parent="D_rbxeIY8IHrmzFwVU9i-97" source="D_rbxeIY8IHrmzFwVU9i-114" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="D_rbxeIY8IHrmzFwVU9i-116" value="">
           <mxGeometry relative="1" as="geometry" />
@@ -202,6 +205,15 @@
           <mxGeometry relative="1" x="-0.0555" y="-5" as="geometry">
             <mxPoint x="1" y="-5" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="D_rbxeIY8IHrmzFwVU9i-137" edge="1" parent="D_rbxeIY8IHrmzFwVU9i-97" source="D_rbxeIY8IHrmzFwVU9i-134" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="D_rbxeIY8IHrmzFwVU9i-136" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D_rbxeIY8IHrmzFwVU9i-100" parent="D_rbxeIY8IHrmzFwVU9i-97" style="swimlane;startSize=20;" value="ai-chatbi-dslengine" vertex="1">
+          <mxGeometry height="1300" width="290" x="810" as="geometry" />
+        </mxCell>
+        <mxCell id="D_rbxeIY8IHrmzFwVU9i-136" parent="D_rbxeIY8IHrmzFwVU9i-100" style="whiteSpace=wrap;html=1;rounded=1;" value="DslParseHelper.parseToQueryModel" vertex="1">
+          <mxGeometry height="60" width="220" x="40" y="1050" as="geometry" />
         </mxCell>
         <mxCell id="D_rbxeIY8IHrmzFwVU9i-105" edge="1" parent="1" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
