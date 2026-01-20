@@ -107,10 +107,10 @@
           <mxGeometry height="120" width="250" x="1250" y="90" as="geometry" />
         </mxCell>
         <mxCell id="D_rbxeIY8IHrmzFwVU9i-97" parent="1" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;horizontal=0;horizontalStack=1;" value="Pool" vertex="1">
-          <mxGeometry height="1980" width="1153.755" x="1220" y="250" as="geometry" />
+          <mxGeometry height="2270" width="1153.755" x="1220" y="250" as="geometry" />
         </mxCell>
         <mxCell id="D_rbxeIY8IHrmzFwVU9i-98" parent="D_rbxeIY8IHrmzFwVU9i-97" style="swimlane;startSize=20;" value="ai-chatbi-flowengine" vertex="1">
-          <mxGeometry height="1980" width="372.5" x="20" as="geometry" />
+          <mxGeometry height="2270" width="372.5" x="20" as="geometry" />
         </mxCell>
         <mxCell id="D_rbxeIY8IHrmzFwVU9i-104" edge="1" parent="D_rbxeIY8IHrmzFwVU9i-98" source="D_rbxeIY8IHrmzFwVU9i-102" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="D_rbxeIY8IHrmzFwVU9i-103" value="">
           <mxGeometry relative="1" as="geometry" />
@@ -155,7 +155,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="D_rbxeIY8IHrmzFwVU9i-99" parent="D_rbxeIY8IHrmzFwVU9i-97" style="swimlane;startSize=20;" value="ai-chatbi-mservice / ai-chatbi-mservice-api" vertex="1">
-          <mxGeometry height="1980" width="471.255" x="392.5" as="geometry" />
+          <mxGeometry height="2270" width="471.255" x="392.5" as="geometry" />
         </mxCell>
         <mxCell id="D_rbxeIY8IHrmzFwVU9i-120" edge="1" parent="D_rbxeIY8IHrmzFwVU9i-99" source="D_rbxeIY8IHrmzFwVU9i-116" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="D_rbxeIY8IHrmzFwVU9i-119" value="">
           <mxGeometry relative="1" as="geometry" />
@@ -208,8 +208,14 @@
         <mxCell id="D_rbxeIY8IHrmzFwVU9i-149" parent="D_rbxeIY8IHrmzFwVU9i-99" style="whiteSpace=wrap;html=1;align=center;rounded=1;" value="根据AgentId获取rules" vertex="1">
           <mxGeometry height="60" width="120" x="151.255" y="1690" as="geometry" />
         </mxCell>
+        <mxCell id="D_rbxeIY8IHrmzFwVU9i-169" edge="1" parent="D_rbxeIY8IHrmzFwVU9i-99" source="D_rbxeIY8IHrmzFwVU9i-165" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="D_rbxeIY8IHrmzFwVU9i-168" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="D_rbxeIY8IHrmzFwVU9i-165" parent="D_rbxeIY8IHrmzFwVU9i-99" style="rounded=1;whiteSpace=wrap;html=1;" value="对象转换&lt;div&gt;ChatDslConverDetailVo&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="141.25" x="130" y="1870" as="geometry" />
+        </mxCell>
+        <mxCell id="D_rbxeIY8IHrmzFwVU9i-168" parent="D_rbxeIY8IHrmzFwVU9i-99" style="whiteSpace=wrap;html=1;rounded=1;" value="" vertex="1">
+          <mxGeometry height="60" width="120" x="140.625" y="2010" as="geometry" />
         </mxCell>
         <mxCell id="D_rbxeIY8IHrmzFwVU9i-117" edge="1" parent="D_rbxeIY8IHrmzFwVU9i-97" source="D_rbxeIY8IHrmzFwVU9i-114" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="D_rbxeIY8IHrmzFwVU9i-116" value="">
           <mxGeometry relative="1" as="geometry" />
@@ -234,7 +240,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="D_rbxeIY8IHrmzFwVU9i-100" parent="D_rbxeIY8IHrmzFwVU9i-97" style="swimlane;startSize=20;" value="ai-chatbi-dslengine" vertex="1">
-          <mxGeometry height="1980" width="290" x="863.755" as="geometry" />
+          <mxGeometry height="2270" width="290" x="863.755" as="geometry" />
         </mxCell>
         <mxCell id="D_rbxeIY8IHrmzFwVU9i-139" edge="1" parent="D_rbxeIY8IHrmzFwVU9i-100" source="D_rbxeIY8IHrmzFwVU9i-136" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="D_rbxeIY8IHrmzFwVU9i-138" value="">
           <mxGeometry relative="1" as="geometry" />
@@ -268,6 +274,12 @@
         <mxCell id="D_rbxeIY8IHrmzFwVU9i-164" parent="D_rbxeIY8IHrmzFwVU9i-100" style="rounded=1;whiteSpace=wrap;html=1;" value="字段翻译&lt;div&gt;buildConvertedSql&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="120" x="112.50500000000011" y="1870" as="geometry" />
         </mxCell>
+        <mxCell id="D_rbxeIY8IHrmzFwVU9i-171" edge="1" parent="D_rbxeIY8IHrmzFwVU9i-100" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="D_rbxeIY8IHrmzFwVU9i-170" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="240.0050000000001" y="1900" as="sourcePoint" />
+            <mxPoint x="290.0050000000001" y="1850" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="D_rbxeIY8IHrmzFwVU9i-143" edge="1" parent="D_rbxeIY8IHrmzFwVU9i-97" source="D_rbxeIY8IHrmzFwVU9i-140" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="D_rbxeIY8IHrmzFwVU9i-142" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -293,6 +305,9 @@
         </mxCell>
         <mxCell id="D_rbxeIY8IHrmzFwVU9i-167" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;" value="ProcessResult" vertex="1">
           <mxGeometry height="30" width="100" x="1940" y="2120" as="geometry" />
+        </mxCell>
+        <mxCell id="D_rbxeIY8IHrmzFwVU9i-170" parent="1" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;align=left;" value="&lt;ul&gt;&lt;li&gt;ai-chatbi-dslengine工程中定义了多种规则，其基类为kd.ai.chatbi.dslengine.dslrule.datamodel.Rule&lt;/li&gt;&lt;li&gt;每一条规则都有其对应的实现kd.ai.chatbi.dslengine.dslrule.IRewriteRule&lt;/li&gt;&lt;li&gt;规则的匹配都基于最原始的QueryModel上，但是rewrite时会作用在同一个QueryModel上&lt;/li&gt;&lt;li&gt;规则有执行优先级，根据order来按顺序执行&lt;/li&gt;&lt;/ul&gt;" vertex="1">
+          <mxGeometry height="162" width="370" x="2480" y="1988" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
