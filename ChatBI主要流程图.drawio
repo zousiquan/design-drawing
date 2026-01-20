@@ -303,7 +303,7 @@
         <mxCell id="D_rbxeIY8IHrmzFwVU9i-170" parent="1" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;align=left;" value="&lt;ul&gt;&lt;li&gt;ai-chatbi-dslengine工程中定义了多种规则，其基类为kd.ai.chatbi.dslengine.dslrule.datamodel.Rule&lt;/li&gt;&lt;li&gt;每一条规则都有其对应的实现kd.ai.chatbi.dslengine.dslrule.IRewriteRule&lt;/li&gt;&lt;li&gt;规则的匹配都基于最原始的QueryModel上，但是rewrite时会作用在同一个QueryModel上&lt;/li&gt;&lt;li&gt;规则有执行优先级，根据order来按顺序执行&lt;/li&gt;&lt;/ul&gt;" vertex="1">
           <mxGeometry height="162" width="370" x="2690" y="1580" as="geometry" />
         </mxCell>
-        <mxCell id="D_rbxeIY8IHrmzFwVU9i-172" parent="1" style="swimlane;startSize=20;" value="ai-chatbi-dslengine" vertex="1">
+        <mxCell id="D_rbxeIY8IHrmzFwVU9i-172" parent="1" style="swimlane;startSize=20;" value="ai-chatbi-sqlengine" vertex="1">
           <mxGeometry height="2270" width="290" x="2373.76" y="250" as="geometry" />
         </mxCell>
         <mxCell id="D_rbxeIY8IHrmzFwVU9i-173" edge="1" parent="D_rbxeIY8IHrmzFwVU9i-172" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="D_rbxeIY8IHrmzFwVU9i-175" value="">
