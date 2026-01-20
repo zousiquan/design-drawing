@@ -203,6 +203,9 @@
         <mxCell id="D_rbxeIY8IHrmzFwVU9i-116" parent="D_rbxeIY8IHrmzFwVU9i-99" style="whiteSpace=wrap;html=1;rounded=1;labelBackgroundColor=none;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;" value="RecallProxyService.recallKeyword()" vertex="1">
           <mxGeometry height="60" width="220" x="110" y="470" as="geometry" />
         </mxCell>
+        <mxCell id="D_rbxeIY8IHrmzFwVU9i-255" edge="1" parent="D_rbxeIY8IHrmzFwVU9i-99" source="D_rbxeIY8IHrmzFwVU9i-119" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#457B9D;fontColor=#1D3557;fillColor=#A8DADC;" target="D_rbxeIY8IHrmzFwVU9i-125" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="D_rbxeIY8IHrmzFwVU9i-119" parent="D_rbxeIY8IHrmzFwVU9i-99" style="whiteSpace=wrap;html=1;rounded=1;labelBackgroundColor=none;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;" value="ai-chatbi-recallengine 召回引擎工程&lt;div&gt;RecallService.search&lt;/div&gt;" vertex="1">
           <mxGeometry height="70" width="260" x="90" y="580" as="geometry" />
         </mxCell>
