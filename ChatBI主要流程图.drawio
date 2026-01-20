@@ -21,8 +21,14 @@
         <mxCell id="D_rbxeIY8IHrmzFwVU9i-59" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="用户" vertex="1">
           <mxGeometry height="60" width="30" x="445" y="20" as="geometry" />
         </mxCell>
+        <mxCell id="D_rbxeIY8IHrmzFwVU9i-84" edge="1" parent="1" source="D_rbxeIY8IHrmzFwVU9i-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="D_rbxeIY8IHrmzFwVU9i-83" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="D_rbxeIY8IHrmzFwVU9i-69" parent="1" style="whiteSpace=wrap;html=1;strokeWidth=2;" value="Dify&lt;div&gt;&lt;span style=&quot;font-family: -apple-system, BlinkMacSystemFont, Arial, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;Microsoft JhengHei&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 13px; text-align: start; white-space: pre-wrap; background-color: rgb(218, 234, 252);&quot;&gt;kd.ai.chatbi.service.chat.impl.DifyAiChatService&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="50" width="120" x="290" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="D_rbxeIY8IHrmzFwVU9i-74" edge="1" parent="1" source="D_rbxeIY8IHrmzFwVU9i-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="D_rbxeIY8IHrmzFwVU9i-73" value="">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="D_rbxeIY8IHrmzFwVU9i-71" parent="1" style="whiteSpace=wrap;html=1;strokeWidth=2;" value="WorkFlowEngine&lt;div&gt;&lt;span style=&quot;font-family: -apple-system, BlinkMacSystemFont, Arial, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;Microsoft JhengHei&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 13px; text-align: start; white-space: pre-wrap; background-color: rgb(218, 234, 252);&quot;&gt;kd.ai.chatbi.service.chat.impl.FlowAiChatService&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="50" width="120" x="580" y="200" as="geometry" />
@@ -36,6 +42,66 @@
             <mxPoint x="690" y="420" as="sourcePoint" />
             <mxPoint x="740" y="370" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="D_rbxeIY8IHrmzFwVU9i-80" edge="1" parent="1" source="D_rbxeIY8IHrmzFwVU9i-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="D_rbxeIY8IHrmzFwVU9i-79" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D_rbxeIY8IHrmzFwVU9i-73" parent="1" style="whiteSpace=wrap;html=1;strokeWidth=2;" value="FlowEngineRunner初始化" vertex="1">
+          <mxGeometry height="60" width="150" x="565" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="D_rbxeIY8IHrmzFwVU9i-77" parent="1" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;align=left;" value="&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; FlowEngineRunner初始化&lt;div&gt;&lt;ul&gt;&lt;li&gt;1.根据workflowId加载工作流详情&lt;/li&gt;&lt;li&gt;2.加载模型配配置&lt;/li&gt;&lt;li style=&quot;&quot;&gt;3.加载子工作流详情&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="140" width="210" x="780" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="D_rbxeIY8IHrmzFwVU9i-78" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" target="D_rbxeIY8IHrmzFwVU9i-77" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="715" y="350" as="sourcePoint" />
+            <mxPoint x="770" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D_rbxeIY8IHrmzFwVU9i-82" edge="1" parent="1" source="D_rbxeIY8IHrmzFwVU9i-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="D_rbxeIY8IHrmzFwVU9i-81" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D_rbxeIY8IHrmzFwVU9i-79" parent="1" style="whiteSpace=wrap;html=1;strokeWidth=2;" value="Flowengine.execute()" vertex="1">
+          <mxGeometry height="60" width="120" x="580" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="D_rbxeIY8IHrmzFwVU9i-81" parent="1" style="whiteSpace=wrap;html=1;strokeWidth=2;" value="FlowRunner.run()" vertex="1">
+          <mxGeometry height="60" width="120" x="580" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="D_rbxeIY8IHrmzFwVU9i-86" edge="1" parent="1" source="D_rbxeIY8IHrmzFwVU9i-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="D_rbxeIY8IHrmzFwVU9i-85" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D_rbxeIY8IHrmzFwVU9i-83" parent="1" style="whiteSpace=wrap;html=1;strokeWidth=2;" value="参数构建" vertex="1">
+          <mxGeometry height="55" width="120" x="290" y="325" as="geometry" />
+        </mxCell>
+        <mxCell id="D_rbxeIY8IHrmzFwVU9i-88" edge="1" parent="1" source="D_rbxeIY8IHrmzFwVU9i-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="D_rbxeIY8IHrmzFwVU9i-87" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="350" y="610" />
+              <mxPoint x="500" y="610" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D_rbxeIY8IHrmzFwVU9i-85" parent="1" style="whiteSpace=wrap;html=1;strokeWidth=2;" value="dify调用" vertex="1">
+          <mxGeometry height="60" width="120" x="290" y="457.5" as="geometry" />
+        </mxCell>
+        <mxCell id="D_rbxeIY8IHrmzFwVU9i-93" edge="1" parent="1" source="D_rbxeIY8IHrmzFwVU9i-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="D_rbxeIY8IHrmzFwVU9i-92" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D_rbxeIY8IHrmzFwVU9i-87" parent="1" style="whiteSpace=wrap;html=1;strokeWidth=2;" value="SSE结果输出" vertex="1">
+          <mxGeometry height="60" width="120" x="440" y="670" as="geometry" />
+        </mxCell>
+        <mxCell id="D_rbxeIY8IHrmzFwVU9i-89" edge="1" parent="1" source="D_rbxeIY8IHrmzFwVU9i-81" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="D_rbxeIY8IHrmzFwVU9i-87" value="">
+          <mxGeometry relative="1" width="100" as="geometry">
+            <Array as="points">
+              <mxPoint x="640" y="610" />
+              <mxPoint x="500" y="610" />
+            </Array>
+            <mxPoint x="540" y="600" as="sourcePoint" />
+            <mxPoint x="420" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D_rbxeIY8IHrmzFwVU9i-92" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="结束" vertex="1">
+          <mxGeometry height="60" width="120" x="440" y="767" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
