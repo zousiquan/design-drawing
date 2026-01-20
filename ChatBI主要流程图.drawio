@@ -316,7 +316,7 @@
           <mxGeometry height="162" width="370" x="2690" y="1580" as="geometry" />
         </mxCell>
         <mxCell id="D_rbxeIY8IHrmzFwVU9i-172" parent="1" style="swimlane;startSize=20;" value="ai-chatbi-sqlengine" vertex="1">
-          <mxGeometry height="2270" width="290" x="2373.76" y="250" as="geometry" />
+          <mxGeometry height="2320" width="290" x="2373.76" y="250" as="geometry" />
         </mxCell>
         <mxCell id="D_rbxeIY8IHrmzFwVU9i-173" edge="1" parent="D_rbxeIY8IHrmzFwVU9i-172" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="D_rbxeIY8IHrmzFwVU9i-175" value="">
           <mxGeometry relative="1" as="geometry">
