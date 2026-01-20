@@ -103,6 +103,9 @@
         <mxCell id="D_rbxeIY8IHrmzFwVU9i-92" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="结束" vertex="1">
           <mxGeometry height="60" width="120" x="440" y="767" as="geometry" />
         </mxCell>
+        <mxCell id="D_rbxeIY8IHrmzFwVU9i-95" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;WorkFlow主流程&lt;/h1&gt;&lt;p&gt;ai-chatbi-flowengine 工程是独立的工作流执行引擎，其核心原理是基于Graph的执行引擎；以下是chatbi内置的主工作流的大概执行流程&lt;/p&gt;" vertex="1">
+          <mxGeometry height="120" width="250" x="1250" y="90" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
