@@ -106,6 +106,86 @@
         <mxCell id="D_rbxeIY8IHrmzFwVU9i-95" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;WorkFlow主流程&lt;/h1&gt;&lt;p&gt;ai-chatbi-flowengine 工程是独立的工作流执行引擎，其核心原理是基于Graph的执行引擎；以下是chatbi内置的主工作流的大概执行流程&lt;/p&gt;" vertex="1">
           <mxGeometry height="120" width="250" x="1250" y="90" as="geometry" />
         </mxCell>
+        <mxCell id="D_rbxeIY8IHrmzFwVU9i-97" parent="1" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;horizontal=0;horizontalStack=1;" value="Pool" vertex="1">
+          <mxGeometry height="1300" width="1190" x="1240" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="D_rbxeIY8IHrmzFwVU9i-98" parent="D_rbxeIY8IHrmzFwVU9i-97" style="swimlane;startSize=20;" value="ai-chatbi-flowengine" vertex="1">
+          <mxGeometry height="1300" width="372.5" x="20" as="geometry" />
+        </mxCell>
+        <mxCell id="D_rbxeIY8IHrmzFwVU9i-104" edge="1" parent="D_rbxeIY8IHrmzFwVU9i-98" source="D_rbxeIY8IHrmzFwVU9i-102" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="D_rbxeIY8IHrmzFwVU9i-103" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D_rbxeIY8IHrmzFwVU9i-102" parent="D_rbxeIY8IHrmzFwVU9i-98" style="rounded=1;whiteSpace=wrap;html=1;" value="开始" vertex="1">
+          <mxGeometry height="30" width="95" x="65" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="D_rbxeIY8IHrmzFwVU9i-107" edge="1" parent="D_rbxeIY8IHrmzFwVU9i-98" source="D_rbxeIY8IHrmzFwVU9i-103" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="D_rbxeIY8IHrmzFwVU9i-106" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D_rbxeIY8IHrmzFwVU9i-103" parent="D_rbxeIY8IHrmzFwVU9i-98" style="whiteSpace=wrap;html=1;rounded=1;" value="FlowRunner.init()" vertex="1">
+          <mxGeometry height="46" width="120" x="52.5" y="104" as="geometry" />
+        </mxCell>
+        <mxCell id="D_rbxeIY8IHrmzFwVU9i-111" edge="1" parent="D_rbxeIY8IHrmzFwVU9i-98" source="D_rbxeIY8IHrmzFwVU9i-106" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="D_rbxeIY8IHrmzFwVU9i-110" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D_rbxeIY8IHrmzFwVU9i-106" parent="D_rbxeIY8IHrmzFwVU9i-98" style="whiteSpace=wrap;html=1;rounded=1;" value="FlowRunner.run()" vertex="1">
+          <mxGeometry height="60" width="120" x="52.5" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="D_rbxeIY8IHrmzFwVU9i-113" edge="1" parent="D_rbxeIY8IHrmzFwVU9i-98" source="D_rbxeIY8IHrmzFwVU9i-110" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="D_rbxeIY8IHrmzFwVU9i-112" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D_rbxeIY8IHrmzFwVU9i-110" parent="D_rbxeIY8IHrmzFwVU9i-98" style="whiteSpace=wrap;html=1;rounded=1;" value="StartNode" vertex="1">
+          <mxGeometry height="60" width="120" x="52.5" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="D_rbxeIY8IHrmzFwVU9i-115" edge="1" parent="D_rbxeIY8IHrmzFwVU9i-98" source="D_rbxeIY8IHrmzFwVU9i-112" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="D_rbxeIY8IHrmzFwVU9i-114" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D_rbxeIY8IHrmzFwVU9i-112" parent="D_rbxeIY8IHrmzFwVU9i-98" style="whiteSpace=wrap;html=1;rounded=1;" value="中间node&lt;br&gt;(问题改写、意图识别分等)" vertex="1">
+          <mxGeometry height="60" width="120" x="52.5" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="D_rbxeIY8IHrmzFwVU9i-114" parent="D_rbxeIY8IHrmzFwVU9i-98" style="whiteSpace=wrap;html=1;rounded=1;" value="关键词召回Node" vertex="1">
+          <mxGeometry height="60" width="120" x="52.5" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="D_rbxeIY8IHrmzFwVU9i-121" parent="D_rbxeIY8IHrmzFwVU9i-98" style="whiteSpace=wrap;html=1;rounded=1;" value="NER2DSL Node" vertex="1">
+          <mxGeometry height="60" width="120" x="52.5" y="585" as="geometry" />
+        </mxCell>
+        <mxCell id="D_rbxeIY8IHrmzFwVU9i-123" parent="D_rbxeIY8IHrmzFwVU9i-98" style="whiteSpace=wrap;html=1;rounded=1;" value="DSL召回与执行引擎Node" vertex="1">
+          <mxGeometry height="60" width="120" x="52.5" y="710" as="geometry" />
+        </mxCell>
+        <mxCell id="D_rbxeIY8IHrmzFwVU9i-124" edge="1" parent="D_rbxeIY8IHrmzFwVU9i-98" source="D_rbxeIY8IHrmzFwVU9i-121" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="D_rbxeIY8IHrmzFwVU9i-123" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D_rbxeIY8IHrmzFwVU9i-99" parent="D_rbxeIY8IHrmzFwVU9i-97" style="swimlane;startSize=20;" value="ai-chatbi-mservice / ai-chatbi-mservice-api" vertex="1">
+          <mxGeometry height="1300" width="377.5" x="392.5" as="geometry" />
+        </mxCell>
+        <mxCell id="D_rbxeIY8IHrmzFwVU9i-120" edge="1" parent="D_rbxeIY8IHrmzFwVU9i-99" source="D_rbxeIY8IHrmzFwVU9i-116" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="D_rbxeIY8IHrmzFwVU9i-119" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D_rbxeIY8IHrmzFwVU9i-116" parent="D_rbxeIY8IHrmzFwVU9i-99" style="whiteSpace=wrap;html=1;rounded=1;" value="RecallProxyService.recallKeyword()" vertex="1">
+          <mxGeometry height="60" width="220" x="110" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="D_rbxeIY8IHrmzFwVU9i-119" parent="D_rbxeIY8IHrmzFwVU9i-99" style="whiteSpace=wrap;html=1;rounded=1;" value="ai-chatbi-recallengine 召回引擎工程&lt;div&gt;RecallService.search&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="260" x="90" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="D_rbxeIY8IHrmzFwVU9i-100" parent="D_rbxeIY8IHrmzFwVU9i-97" style="swimlane;startSize=20;" value="ai-chatbi-dslengine" vertex="1">
+          <mxGeometry height="1300" width="420" x="770" as="geometry" />
+        </mxCell>
+        <mxCell id="D_rbxeIY8IHrmzFwVU9i-117" edge="1" parent="D_rbxeIY8IHrmzFwVU9i-97" source="D_rbxeIY8IHrmzFwVU9i-114" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="D_rbxeIY8IHrmzFwVU9i-116" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D_rbxeIY8IHrmzFwVU9i-118" connectable="0" parent="D_rbxeIY8IHrmzFwVU9i-117" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;span style=&quot;color: rgb(203, 75, 22); font-family: Menlo, monospace; font-size: 13px; text-align: start; white-space: normal; background-color: rgb(250, 250, 250);&quot;&gt;/kapi/v2/chatbi/cbi/recallKeyword&lt;/span&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.1021" y="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D_rbxeIY8IHrmzFwVU9i-122" edge="1" parent="D_rbxeIY8IHrmzFwVU9i-97" source="D_rbxeIY8IHrmzFwVU9i-119" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="D_rbxeIY8IHrmzFwVU9i-121" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D_rbxeIY8IHrmzFwVU9i-105" edge="1" parent="1" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="730" y="550" as="sourcePoint" />
+            <mxPoint x="1210" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
