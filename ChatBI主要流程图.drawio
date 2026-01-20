@@ -208,8 +208,8 @@
         <mxCell id="D_rbxeIY8IHrmzFwVU9i-149" parent="D_rbxeIY8IHrmzFwVU9i-99" style="whiteSpace=wrap;html=1;align=center;rounded=1;" value="根据AgentId获取rules" vertex="1">
           <mxGeometry height="60" width="120" x="151.255" y="1690" as="geometry" />
         </mxCell>
-        <mxCell id="D_rbxeIY8IHrmzFwVU9i-165" parent="D_rbxeIY8IHrmzFwVU9i-99" style="rounded=1;whiteSpace=wrap;html=1;" value="字段翻译&lt;div&gt;buildConvertedSql&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="120" x="151.25000000000023" y="1870" as="geometry" />
+        <mxCell id="D_rbxeIY8IHrmzFwVU9i-165" parent="D_rbxeIY8IHrmzFwVU9i-99" style="rounded=1;whiteSpace=wrap;html=1;" value="对象转换&lt;div&gt;ChatDslConverDetailVo&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="141.25" x="130" y="1870" as="geometry" />
         </mxCell>
         <mxCell id="D_rbxeIY8IHrmzFwVU9i-117" edge="1" parent="D_rbxeIY8IHrmzFwVU9i-97" source="D_rbxeIY8IHrmzFwVU9i-114" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="D_rbxeIY8IHrmzFwVU9i-116" value="">
           <mxGeometry relative="1" as="geometry" />
