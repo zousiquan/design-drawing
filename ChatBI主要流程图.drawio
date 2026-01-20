@@ -25,13 +25,13 @@
           <mxGeometry height="50" width="120" x="290" y="200" as="geometry" />
         </mxCell>
         <mxCell id="D_rbxeIY8IHrmzFwVU9i-71" parent="1" style="whiteSpace=wrap;html=1;strokeWidth=2;" value="WorkFlowEngine&lt;div&gt;&lt;span style=&quot;font-family: -apple-system, BlinkMacSystemFont, Arial, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;Microsoft JhengHei&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 13px; text-align: start; white-space: pre-wrap; background-color: rgb(218, 234, 252);&quot;&gt;kd.ai.chatbi.service.chat.impl.FlowAiChatService&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="50" width="120" x="620" y="200" as="geometry" />
+          <mxGeometry height="50" width="120" x="580" y="200" as="geometry" />
         </mxCell>
         <mxCell id="D_rbxeIY8IHrmzFwVU9i-72" edge="1" parent="1" source="D_rbxeIY8IHrmzFwVU9i-57" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="D_rbxeIY8IHrmzFwVU9i-71" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <Array as="points">
               <mxPoint x="460" y="180" />
-              <mxPoint x="680" y="180" />
+              <mxPoint x="640" y="180" />
             </Array>
             <mxPoint x="690" y="420" as="sourcePoint" />
             <mxPoint x="740" y="370" as="targetPoint" />
